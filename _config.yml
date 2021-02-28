@@ -7,3 +7,7 @@ exclude:
   - "CNAME"
   - "Gemfile"
   - "Gemfile.lock"
+exclude: [vendor]
+
+twitter_username: agile_geek
+github_username:  chrishowejones

@@ -5,14 +5,14 @@
   Base Settings
 ———————————–———————————–*/
 
-$container-desktop: 970px;
-$container-large-desktop: 970px;
+$container-desktop: 1080px;
+$container-large-desktop: 1440px;
 
 $font-family-base: "Muli", sans-serif;
 $headings-font-family: "Quando", sans-serif;
 $headings-font-weight: 400;
 
-$font-size-base: 14px;
+$font-size-base: 12px;
 $font-size-h1: floor(($font-size-base * 2.5));
 $font-size-h2: floor(($font-size-base * 1.6));
 $font-size-h3: floor(($font-size-base * 1));
@@ -236,7 +236,7 @@ a {
 }
 
 .panel-body {
-  height: 280px;
+  height: 290px;
   overflow: hidden;
 }
 
@@ -496,7 +496,7 @@ script + p {
   @include make-grid(sm);
 
   @page {
-    size: US-Letter;
+    size: A4;
   }
 
   body {
@@ -532,6 +532,6 @@ script + p {
   }
 
   .panel-body {
-    height: 280px;
+    height: 350px;
   }
 }
